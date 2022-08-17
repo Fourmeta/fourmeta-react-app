@@ -1,20 +1,19 @@
-import React from 'react';
+import React from 'react'
 
-import {Button} from 'components';
+import { Button } from 'components'
 
-import {useGetAllUsersQuery} from 'services';
+import { useGetAllUsersQuery } from 'services'
 
 const App = () => {
+  /** Test RTK Query req **/
+  const { data, error, isLoading } = useGetAllUsersQuery()
 
-    /** Test RTK Query req **/
-    const {data, error, isLoading} = useGetAllUsersQuery();
+  return (
+    <>
+      <h1>Fourmeta Box</h1>
+      <Button label='text' />
+    </>
+  )
+}
 
-    return (
-        <>
-            <h1>Fourmeta Box</h1>
-            <Button label="text"/>
-        </>
-    );
-};
-
-export default App;
+export default App

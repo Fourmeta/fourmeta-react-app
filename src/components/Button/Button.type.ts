@@ -1,5 +1,5 @@
 interface IButton {
-    label: string
+  label: string
 }
 
-export default IButton;
+export default IButton

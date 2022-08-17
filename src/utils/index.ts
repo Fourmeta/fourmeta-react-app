@@ -1,3 +1,3 @@
-import {ROOT_PATH} from "./constants"
+import { ROOT_PATH } from './constants'
 
-export {ROOT_PATH};
+export { ROOT_PATH }
