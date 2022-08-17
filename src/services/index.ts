@@ -1,4 +1,3 @@
-import {useGetAllUsersQuery, usersApi} from "./usersApi";
+import { useGetAllUsersQuery, usersApi } from './usersApi'
 
-export {useGetAllUsersQuery, usersApi};
-
+export { useGetAllUsersQuery, usersApi }
